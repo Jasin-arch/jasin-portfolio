@@ -1,159 +1,193 @@
-
-:root{
---primary-color:#4c243b;
---secondary-color:#ac7b84;
---auxilliary-color:#ffffff;
---padding-horintal: 100px;
---card-background-color:#ffeff2;
-    
-
+:root {
+  --primary-color: #4c243b;
+  --secondary-color: #ac7b84;
+  --auxilliary-color: #ffffff;
+  --padding-horintal: 100px;
+  --card-background-color: #ffeff2;
 }
- body, h1, h3{
-    margin: 0%;
-    font-family: "Poppins", sans-serif;
-
+body,
+h1,
+h3 {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
 }
 
-nav{
-    background-color:var(--primary-color);
-    display: flex;
-    justify-content: space-between;
-    margin:px;
-     padding-left: var(--padding-horintal);
-    padding-right: var(--padding-horintal);
-     padding-bottom: 10px;
-     padding-top: 10px;
-     align-items: center;
- 
-    
+nav {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  margin: px;
+  padding-left: var(--padding-horintal);
+  padding-right: var(--padding-horintal);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-items: center;
 }
-nav span h1{
-    color: #ffffff;
-    margin-left: 10px;
+nav span h1 {
+  color: #ffffff;
+  margin-left: 10px;
 }
 
-nav div a{
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 6px;
+nav div a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 6px;
 }
 
-.logo{
-    display: flex;
+.logo {
+  display: flex;
 }
-#homesection{
-    display: flex;
-    height: 100vh;
-    justify-content: space-between;
-    padding-left: var(--padding-horintal);
-    padding-right: var(--padding-horintal);
-    align-items: center;
-    
-    
+#homesection {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  padding-left: var(--padding-horintal);
+  padding-right: var(--padding-horintal);
+  align-items: center;
 }
-#homesection>img{
-    aspect-ratio: 1/1;
-    height: 350px;
-    width: 350px;
-    border-radius:50%;
+#homesection > img {
+  aspect-ratio: 1/1;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
 }
 #homesection div {
-    padding-left:120px ;
+  padding-left: 120px;
 }
-#homesection div h1{
-    font-size: 64px;
-    margin: 0;
-    color: var(--primary-color);
+#homesection div h1 {
+  font-size: 64px;
+  margin: 0;
+  color: var(--primary-color);
 }
-#homesection div p{
-    font-size: 16px;
-    color: var(--secondary-color);
-    font-weight: 300;
-    padding: 10px;
-    margin: 0;
+#homesection div p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-weight: 300;
+  padding: 10px;
+  margin: 0;
+}
+#homesection > div > button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  transition: 2s;
+}
+#homesection > div > button:hover {
+  background-color: purple;
+  color: black;
+  cursor: pointer;
+}
+#myprojects > div > h1 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+#myprojects > .projects {
+  display: flex;
+  padding-left: var(--padding-horintal);
+  padding-right: var(--padding-horintal);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#myprojects > div > p {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 300;
+  margin: 0%;
+}
+#myprojects > .projects > .card {
+  background-color: var(--card-background-color);
+  width: 311px;
+  height: 356px;
+  border-radius: 30px;
+  margin: 35px;
+  padding: 16px;
+}
+#myprojects > .projects > .card > button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  transition: 1s;
+  margin-left: 50px;
+  width: 70%;
+  margin-top: 16px;
+}
+#myprojects >.projects>.card>button:hover{
+  background-color: purple;
+  color: black;
+  cursor: pointer;
+}
+#myprojects > .projects > .card > a > img {
+  width: 280px;
+  height: 153px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 30px;
+}
+#myproject > div > .card > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+#myproject > div > .card > p {
+  font-size: 15px;
+  color: var(--secondary-color);
+  padding: 16px;
+  margin-top: 12px;
+}
+#contractsection {
+  padding-left: var(--padding-horintal);
+  padding-right: var(--padding-horintal);
+  height: 60vh;
+}
+#contractsection > form {
+  padding: 24px;
+  width: 60vw;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  margin: auto;
+  align-items: center;
+}
 
+#contractsection > form > div {
+  margin-top: 30px;
 }
-#homesection>div>button{
-    background-color: var(--primary-color);
-    color: #ffffff;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 50px;
-    transition: 2s;
-
-}
-#homesection>div>button:hover{
-    background-color: purple;
-    color:black ;
-    cursor: pointer;
-}
-#myprojects>div>h1{
-    color: #000000;
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-
-}
-#myprojects>.projects{
-    display:flex;
-    padding-left: var(--padding-horintal);
-    padding-right: var(--padding-horintal);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#myprojects>div>p{
-    color: var(--primary-color);
-    text-align: center;
-    font-weight: 300;
-    margin: 0%;
-}
-#myprojects>.projects> .card{
-    background-color: var(--card-background-color);
-    width: 311px;
-    height: 356px;
-    border-radius:30px ;
-    margin: 35px;
-    padding: 16px;
-
-
-}
-#myprojects>.projects>.card>button{
-     background-color: var(--primary-color);
-    color: #ffffff;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 50px;
-    transition: 3s;
-    margin-left: 50px;
-    width: 70%;
-    margin-top: 16px;
-}
-#myprojects>.card>button:hover{
-    background-color: purple;
-    color:black ;
-    cursor: pointer;
-}
-#myprojects>.projects>.card>a>img{
-    width: 280px;
-    height:153px;
-    aspect-ratio:1/1 ;
-    object-fit: cover;
-    border-radius: 30px;
-   
-}
-#myproject>div>.card>h3{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 16px;
-}
-#myproject>div>.card>p{
+#contractsection > form > div {
+  text-align: left;
+  font-style: normal;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: var(--secondary-color);
-    padding: 16px;
-    margin-top: 12px;
+    color: var(--primary-color);
+    font-weight: bold;
 
 }
+#contractsection > form > div >input{
+    width: 50%;
+    border-radius: 5px;
+    height: 3vh;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+
+}
+#contractsection > form >h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: overline;
+
+}
+
+
