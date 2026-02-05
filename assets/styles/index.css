@@ -103,7 +103,7 @@ nav div a {
 #myprojects > .projects > .card {
   background-color: var(--card-background-color);
   width: 311px;
-  height: 356px;
+  height: 380px;
   border-radius: 30px;
   margin: 35px;
   padding: 16px;
@@ -148,6 +148,8 @@ nav div a {
   padding-left: var(--padding-horintal);
   padding-right: var(--padding-horintal);
   height: 60vh;
+  margin-top: 6%;
+  align-items: center;
 }
 #contractsection > form {
   padding: 24px;
@@ -158,27 +160,48 @@ nav div a {
   align-items: center;
 }
 
-#contractsection > form > div {
+#contractsection > form > div{
   margin-top: 30px;
+  gap: 50px;
+  align-items: center;
+  margin-left: 10%;
 }
-#contractsection > form > div {
+#contractsection > form >.UserNameEmail{
+    display: flex;
+    gap: 200px;
+}
+#contractsection > form >.UserAgeDOB{
+    display: flex;
+    gap: 200px;
+}
+
+
+#contractsection > form > div>div> label {
   text-align: left;
   font-style: normal;
-  font-family:
-    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     color: var(--primary-color);
     font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 
 }
-#contractsection > form > div >input{
-    width: 50%;
+#contractsection > form >div>div>input{
+    width: 100%;
     border-radius: 5px;
     height: 3vh;
     font-size: 12px;
     color: #000;
     font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 12px;
 
 }
 #contractsection > form >h3{
@@ -188,6 +211,38 @@ nav div a {
     text-align: center;
     text-decoration: overline;
 
+}
+#contractsection>form>.Usermessage{
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    margin-top: 12px;
+    color: var(--primary-color);
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#contractsection>form>button{
+   background-color: var(--primary-color);
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  transition: 1s;
+  margin-left: 50px;
+  width: 70%;
+  margin-top: 16px;
+
+}
+#contractsection>form>button:hover{
+  background-color: purple;
+  color: black;
+  cursor: pointer;
 }
 
 
